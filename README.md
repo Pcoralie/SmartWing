@@ -31,5 +31,5 @@ http://ardupilot.org/dev/
 https://github.com/AtsushiSakai/PythonRobotics/blob/master/AerialNavigation/drone_3d_trajectory_following/drone_3d_trajectory_following.py
 
 
-
+Simulator :
 http://ardupilot.org/dev/docs/plane-sitlmavproxy-tutorial.html
