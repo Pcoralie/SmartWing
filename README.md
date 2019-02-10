@@ -29,3 +29,5 @@ Used in pathfinding and graph traversal, which is the process of finding a path 
 http://ardupilot.org/dev/
 
 https://github.com/AtsushiSakai/PythonRobotics/blob/master/AerialNavigation/drone_3d_trajectory_following/drone_3d_trajectory_following.py
+
+https://pythonrobotics.readthedocs.io/en/latest/modules/path_tracking.html#move-to-a-pose-control
