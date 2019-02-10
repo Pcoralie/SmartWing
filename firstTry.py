@@ -1,8 +1,20 @@
-#https://github.com/AtsushiSakai/PythonRobotics/blob/master/AerialNavigation/drone_3d_trajectory_following/drone_3d_trajectory_following.py
+"""
+https://github.com/AtsushiSakai/PythonRobotics/blob/master/AerialNavigation/drone_3d_trajectory_following/drone_3d_trajectory_following.py
+https://github.com/RoVi2-course-projects/fixedwing-design/blob/master/scripts/wing.py
+""""
 from math import cos, sin
+from abc import ABC, abstractmethod
 import numpy as np
 
 show_animation = True
+
+class Wing(ABC):
+    """
+    Abstract class defining the basic wing properties and methods
+    """
+
+    GRAVITY = 9.81
+
 
 def calculate_position(c, t):
     """
